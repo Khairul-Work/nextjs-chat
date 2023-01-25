@@ -27,7 +27,7 @@ const AblyChatComponent = () => {
   };
 
   const handleKeyPress = (event) => {
-    if (messageTextIsEmpty) {
+    if (event.charCode !== 13 || messageTextIsEmpty) {
       return;
     }
     sendChatMessage(messageText);
