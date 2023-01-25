@@ -57,3 +57,13 @@
   flex-grow: 0;
   border-bottom-left-radius: 0;
 }
+
+.messagemine {
+  margin-left: auto;
+  margin-right: 0;
+  background-color: #363795;
+  padding: 1em;
+  border-radius: 10px;
+  flex-grow: 0;
+  border-bottom-left-radius: 0;
+}
